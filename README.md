@@ -22,9 +22,9 @@ Works with any LLM, any language, any framework.
 ## Why
 
 Traditional linters check syntax and style. They can't tell you that your
-README still references an endpoint you removed two sprints ago, that a third of
-your dependencies aren't imported anywhere, or that your .env.example lists
-variables the app stopped reading months ago.
+onboarding doc sends new hires to a setup script that was deleted in March, that
+your Docker Compose still starts a Redis container nothing connects to, or that
+six of your CI steps test a package you extracted into its own repo last quarter.
 
 Slop is fuzzy. Detecting it requires judgment. LLMs have judgment. Rules don't.
 
